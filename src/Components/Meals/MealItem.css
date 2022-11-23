@@ -1,0 +1,26 @@
+.mealitem-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px white solid;
+}
+.meals{
+    /* border-bottom: 1px solid #f3e848; */
+    /* border-bottom: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+    padding: .8rem 2rem;
+}
+
+.common{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .8rem;
+}
+
+.tag,.tray,.about{
+    width:1.5rem;
+}
